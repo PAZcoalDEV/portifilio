@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+    
+    <nav class="navegacao"">
+        <ul class=" menu">
+        <li>
+            <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+            <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+            <a href="#projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+            <a href="#contato" class="menu-link">Contato</a>
+        </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="topico">
+        <img src="./img/Sem título.jpeg" alt="Foto do Eduardo Pascoal" class="foto-perfil">
+        <h1> Eduardo Pascoal</h1>
+        <p class="sub-titulo"> Desenvolver Front End</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá, eu sou um desenvolvedor front-end iniciando na área da programação, apaixonado por criar
+                experiências web únicas e memoráveis. Combinando código limpo com design moderno para desenvolver sites
+                que não só funcionam perfeitamente, mas também impressionam visualmente.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixas">
+            <div class="projetos-card">
+                <img src="./img/pinterest.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="texto-caixa">
+                    <h3 class="info-projetos"> Pinterest</h3>
+                    <p class="paragrafo-projetos"> Loja virtual moderna com animações suaves</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="./img/amazon.png" alt="Projeto 2" class="projetos-imagem">
+                <div class="texto-caixa">
+                    <h3 class="info-projetos"> Amazon</h3>
+                    <p class="paragrafo-projetos"> Loja virtual moderna para fazer compras</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="./img/youtube.png" alt="Projeto 3" class="projetos-imagem">
+                <div class="texto-caixa">
+                    <h3 class="info-projetos"> Youtube</h3>
+                    <p class="paragrafo-projetos"> Loja virtual moderna para assistir videos</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo"> Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form " placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form"> Enviar Whatsapp</button>
+        </form>
+    </section>
+</body>
+
+</html>
